@@ -2,13 +2,14 @@ body{
     display: flex;
     flex-direction: column;
     margin:0;
+    
 }
 
 header{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   flex:auto;
+   margin-bottom: 0;
    background-color: #1F2937;
 
 }
@@ -19,15 +20,43 @@ header{
 }
 a{
     text-decoration: none;
-    font:18px #F9FAF8;
+    font-size:18px;
+    color: #F9FAF8;
 }
 ul{
     display: flex;
     padding-right: 200px;
     list-style: none;
-    
     font: #E5E7EB;
+}
+.hero{
+    background-color:#1F2937;
+    margin:0;
+    display: flex;
     
+    
+    
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-size:48px;
+    font-weight: extra-bold;
+    color:  #F9FAF8;
+}
+p{
+  color:#E5E7EB;
+  font-size:18px;
+}
+button{
+    background-color:#3882F6;
+    color:#E5E7EB;
+    border-radius: 6px;
+    padding:4px;
+    border:0;
+    font-size:20px;
     
     
 }
