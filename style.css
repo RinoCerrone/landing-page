@@ -2,6 +2,8 @@ body{
     display: flex;
     flex-direction: column;
     margin:0;
+    font-family: "Roboto";
+    
     
 }
 
@@ -17,11 +19,13 @@ header{
     padding-left: 200px;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
     font-size:18px;
     color: #F9FAF8;
+    margin-left: 20px;
 }
 ul{
     display: flex;
@@ -33,18 +37,20 @@ ul{
     background-color:#1F2937;
     margin:0;
     display: flex;
-    
-    
-    
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right:180px ;
 }
-.sub{
-    display: flex;
-    flex-direction: column;
-}
+
 h3{
     font-size:48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color:  #F9FAF8;
+}
+h4{
+    font-size:36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 p{
   color:#E5E7EB;
@@ -54,11 +60,16 @@ button{
     background-color:#3882F6;
     color:#E5E7EB;
     border-radius: 6px;
-    padding:4px;
     border:0;
+    padding:6px 24px;
     font-size:20px;
+    font-weight: 400;
     
     
+    
+}
+img{
+    margin:50px 20px;
 }
 footer{
     background-color: #1F2937;
