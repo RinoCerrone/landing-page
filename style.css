@@ -84,6 +84,7 @@ blockquote{
     font-style: italic;
     margin-left: 350px;
     margin-bottom: 10px;
+    padding-top: 110px;
     
 }
 .thor{
@@ -91,6 +92,7 @@ blockquote{
     font-weight: 700;
     margin-top: 0px;
     margin-left: 850px;
+    padding-bottom: 80px;
     
 
 }
@@ -102,6 +104,12 @@ blockquote{
 }
 footer{
     background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
