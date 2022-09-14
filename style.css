@@ -71,6 +71,35 @@ button{
 img{
     margin:50px 20px;
 }
+.call{
+    background-color: #3882F6;
+
+}
+.quote{
+    background-color: #E5E7EB;
+}
+blockquote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    
+}
+.thor{
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 850px;
+    
+
+}
+.container1{
+    display: flex;  
+}
+.container2{
+    margin:0px;
+}
 footer{
     background-color: #1F2937;
 }
