@@ -51,6 +51,10 @@ h4{
     font-size:36px;
     font-weight: 800;
     color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px 0px;
 }
 p{
   color:#E5E7EB;
@@ -75,6 +79,18 @@ button{
 }
 img{
     margin:50px 20px;
+}
+.imgrow{
+    
+    width: 150px;
+    height: 150px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.txt{
+    text-align: justify;
+    width:250;
 }
 .call{
     background-color: #3882F6;
@@ -120,6 +136,20 @@ blockquote{
 }
 .container2{
     margin:0px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-bottom: 150px;
+    
+}
+.imgcontainer{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 footer{
     background-color: #1F2937;
